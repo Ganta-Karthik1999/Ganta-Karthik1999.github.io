@@ -933,10 +933,11 @@ main {
 .select-item button:hover { --eerie-black-2: hsl(240, 2%, 20%); }
 
 .project-list {
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr;
   gap: 30px;
   margin-bottom: 10px;
+  flex-direction: row;
 }
 
 .project-item { display: none; }
@@ -1626,6 +1627,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .project-list, .blog-posts-list { grid-template-columns: 1fr 1fr; }
 
+  
 
 
   /**
