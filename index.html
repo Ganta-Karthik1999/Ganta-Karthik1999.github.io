@@ -611,7 +611,7 @@
 
               <h4 class="timeline-text">
                 Bachelors of Technology in Electronics and Communication Engineering
-              </h4>
+              </>
 
             </li>
 
@@ -684,7 +684,7 @@
       <!--
         - #PORTFOLIO
       -->
-<!-- 
+
       <article class="portfolio" data-page="projects">
 
         <header>
@@ -751,7 +751,7 @@
                 <head>
                   <meta charset="UTF-8">
                   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                  <title>Wind Farm Power Forecasting</title>
+                  <title>Bomb-Disposal-Robot</title>
                   <style>
                     body {
                       background-color: #1a1a1a;
@@ -769,11 +769,20 @@
                     p {
                       margin: 10px 0;
                       color: #ffffff;
+                      text-decoration: none;
                     }
-            
+          
+
                     a {
-                      color: #e8b660;
+                      text-decoration: none;
+                      color: inherit;
                     }
+
+                    a:hover {
+                      text-decoration: none;
+                      color: inherit;
+                    }
+
 
                     img {
                       width: 100%;
@@ -782,6 +791,11 @@
                       margin: 10px auto;
                       border-radius: 8px;
                     }
+
+                  .noUnderline{
+
+                    text-decoration: none;
+                  }
                   </style>
                 </head>
             
@@ -789,7 +803,8 @@
             
                   <h1>Bomb Disposal robot</h1>
             
-                  <p>
+                  <p class="noUnderline">
+
                     The Bomb Disposal Robot project is an innovative solution designed to handle hazardous objects remotely, ensuring safety and efficiency. Utilizing an Arduino board and a NodeMCU, this robot can be controlled via the Blynk cloud, allowing for precise operations through a mobile app. The robot features three independently controlled robotic fists and a mobile base that can move in all directions. Each fist is capable of rotating, gripping, releasing, and moving up and down, providing versatile manipulation capabilities.
                   </p>
                   
@@ -964,7 +979,7 @@
         <p>Wet Soil</p>
         <img src="assets/images/Soil2.jpg" alt="Bomb Disposal Robot" style="width: 30%;">  
       </div>
-      <br>`<br>
+      <br><br>
       Classified images output images:
       <br><br>
       Wet Soil classification : 
@@ -979,340 +994,18 @@
           <img src="assets/images/Dry3.JPG" alt="Bomb Disposal Robot" style="width: 30%;">
 
         </div>
+        <div style="clear: both;"></div> <!-- Clear floats -->
           
         <br><br>
+        <div style="display: flex; gap: 10px;">
                  <p style="color: white;">
                   For the complete code and design details, refer to the 
                   <a href="https://github.com/Ganta-Karthik1999/IOT-Based-Agriculture-Monitoring-system" target="_blank" style="color: blue;">
                     GitHub repository
                   </a>
                 </p>
-                
-
-
-    </body>
-
-    </html>
-
-  </a>
-</li>
-
-
-
-</ul>
-
-</section>
-
-</article> -->
-
- <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="projects">
-
-        <header>
-          <h2 class="h2 article-title">Projects</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button data-filter-btn>Bomb Disposal Robot</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>IOT Agriculture System</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>wind power forcasting</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-select-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-              <li class="select-item">
-                <button data-select-item>Bomb Disposal Robot</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>IOT Agriculture System</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>wind power forcasting</button>
-              </li>
-
-            </ul>
-
+              </div>   
           </div>
-
-          <ul class="project-list">
-
-
-
-            <li class="project-item  active" data-filter-item data-category="bomb disposal robot">
-              <a href="#">
-
-                <!DOCTYPE html>
-                <html lang="en">
-            
-                <head>
-                  <meta charset="UTF-8">
-                  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                  <title>Wind Farm Power Forecasting</title>
-                  <style>
-                    body {
-                      background-color: #1a1a1a;
-                      color: #ffffff;
-                      font-family: Arial, sans-serif;
-                      line-height: 1.6;
-                      padding: 20px;
-                    }
-            
-                    h1 {
-                      color: #e8b660;
-                      margin-bottom: 10px;
-                    }
-            
-                    p {
-                      margin: 10px 0;
-                      color: #ffffff;
-                    }
-            
-                    a {
-                      color: #e8b660;
-                    }
-
-                    img {
-                      width: 100%;
-                      max-width: 600px;
-                      display: block;
-                      margin: 10px auto;
-                      border-radius: 8px;
-                    }
-                  </style>
-                </head>
-            
-                <body>
-            
-                  <h1>Bomb Disposal robot</h1>
-            
-                  <p>
-                    The Bomb Disposal Robot project is an innovative solution designed to handle hazardous objects remotely, ensuring safety and efficiency. Utilizing an Arduino board and a NodeMCU, this robot can be controlled via the Blynk cloud, allowing for precise operations through a mobile app. The robot features three independently controlled robotic fists and a mobile base that can move in all directions. Each fist is capable of rotating, gripping, releasing, and moving up and down, providing versatile manipulation capabilities.
-                  </p>
-                  
-                  <p>This project integrates several components, including an Arduino board, NodeMCU, and various sensors and motors, all of which work together seamlessly. The NodeMCU reads commands from the Blynk app and communicates them to the Arduino, which executes the actions. The setup process involves configuring the hardware, setting up the Blynk account, and uploading the necessary sketches to the Arduino and NodeMCU. This project not only demonstrates the effective use of IoT and cloud technology but also highlights the potential for remote control applications in safety-critical environments.</p>
-                  <br><br>
-                  
-                  <div style="display: flex; gap: 10px;">
-                    <img src="assets/images/Bomb_Disposal_Robot.jpg" alt="Bomb Disposal Robot" style="width: 50%;" >
-                    <img src="assets/images/Top_view_Bomb_disposal.jpg" alt="Bomb Disposal Robot" style="width: 50%;" >
-                  </div>
-                  
-                  
-                  <br><br>
-                  <p>The following circuit diagram illustrates the connection and integration of various components used in the Bomb Disposal Robot project, including the Arduino board, NodeMCU, and sensors</p>
-                  <br>
-                  <img src="assets/images/Schematic_Bomb-Disposal-Robot.jpg" alt="Bomb Disposal Robot">
-                 <br><br>
-                 <p style="color: white;">
-                  For the complete code and design details, refer to the 
-                  <a href="https://github.com/Ganta-Karthik1999/Bomb-Disposal-Robot" target="_blank" style="color: blue;">
-                    GitHub repository
-                  </a>
-                </p>
-                
-                  
-                  <p></p>
-
-
-                </body>
-            
-                </html>
-            
-            
-
-
-</a>
-</li>
-
-
-<li class="project-item" data-filter-item data-category="wind power forcasting">
-  <a href="#">
-    
-    <!DOCTYPE html>
-    <html lang="en">
-
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Wind Farm Power Forecasting</title>
-      <style>
-        body {
-          background-color: #1a1a1a;
-          color: #ffffff;
-          font-family: Arial, sans-serif;
-          line-height: 1.6;
-          padding: 20px;
-        }
-
-        h1 {
-          color: #e8b660;
-          margin-bottom: 10px;
-        }
-
-        p {
-          margin: 10px 0;
-          color: #ffffff;
-        }
-
-        a {
-          color: #e8b660;
-        }
-
-        img {
-          width: 100%;
-          max-width: 600px;
-          display: block;
-          margin: 10px auto;
-          border-radius: 8px;
-        }
-      </style>
-    </head>
-
-    <body>
-
-      <h1>Bomb Disposal robot</h1>
-
-      <p>
-        The Wind Farm Power Forecasting project is a web API designed to predict wind farm power production using XGBoost, a machine learning algorithm. Accurate forecasts are essential for optimizing power systems and integrating renewable energy into the grid. The project utilizes data from the Chinese State Grid Renewable Energy Generation Forecasting Competition, focusing on three wind farms. The system involves extensive data analysis, model training, and a user-friendly web interface developed with Flask, allowing users to input wind farm IDs and forecasting horizons for power predictions. The project also includes comprehensive documentation and a Postman environment for easy API testing.
-      </p>
-      
-    
-      
-      
-      <br><br>
-      
-      <p></p>
-
-
-    </body>
-
-    </html>
-
-
-  </a>
-</li>
-
-
-</li>
-
-<li class="project-item" data-filter-item data-category="iot agriculture system">
-  <a href="#">
-    <!DOCTYPE html>
-    <html lang="en">
-
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Wind Farm Power Forecasting</title>
-      <style>
-        body {
-          background-color: #1a1a1a;
-          color: #ffffff;
-          font-family: Arial, sans-serif;
-          line-height: 1.6;
-          padding: 20px;
-        }
-
-        h1 {
-          color: #e8b660;
-          margin-bottom: 10px;
-        }
-
-        p {
-          margin: 10px 0;
-          color: #ffffff;
-        }
-
-        a {
-          color: #e8b660;
-        }
-
-        img {
-          width: 100%;
-          max-width: 600px;
-          display: block;
-          margin: 10px auto;
-          border-radius: 8px;
-        }
-      </style>
-    </head>
-
-    <body>
-
-      <h1>IOT Agriculture System</h1>
-
-      <p>
-        The IoT-Based Agriculture Monitoring System project aims to provide farmers with real-time monitoring of their fields remotely. By utilizing sensors to measure soil moisture, humidity, and water levels, this system transmits data to a cloud platform for easy access and visualization. The project integrates a NodeMCU, Arduino, and various sensors to ensure comprehensive field monitoring. Additionally, the system features computer vision-based soil moisture detection using OpenCV on a Raspberry Pi, enhancing soil moisture analysis and providing critical alerts through a user-friendly dashboard. This project exemplifies the integration of IoT and cloud technologies for efficient agricultural management.
-      </p>
-      <br><br>
-      
-      <div style="display: flex; gap: 10px;">
-        <img src="assets/images/Agriculture_Project.JPG" alt="Bomb Disposal Robot" style="width: 100%;">
-      </div>
-      
-      <br><br>
-
-      OpenCV Sampele Training Set:
-      <br><br>
-      <div style="display: flex; gap: 10px;">
-        <p>Dry Soil</p>
-        <img src="assets/images/Soil1.jpg" alt="Bomb Disposal Robot" style="width: 30%;">
-        <p>Wet Soil</p>
-        <img src="assets/images/Soil2.jpg" alt="Bomb Disposal Robot" style="width: 30%;">  
-      </div>
-      <br>`<br>
-      Classified images output images:
-      <br><br>
-      Wet Soil classification : 
-      <div style="display: flex; gap: 10px;">
-        <img src="assets/images/wet1.JPG" alt="Bomb Disposal Robot" style="width: 30%;">
-        <img src="assets/images/wet2.JPG" alt="Bomb Disposal Robot" style="width: 30%;">
-
-        Dry Soil classification : 
-        <div style="display: flex; gap: 10px;">
-          <img src="assets/images/Dry1.JPG" alt="Bomb Disposal Robot" style="width: 30%;">
-          <img src="assets/images/Dry2.JPG" alt="Bomb Disposal Robot" style="width: 30%;">
-          <img src="assets/images/Dry3.JPG" alt="Bomb Disposal Robot" style="width: 30%;">
-
-        </div>
-          
-        <br><br>
-                 <p style="color: white;">
-                  For the complete code and design details, refer to the 
-                  <a href="https://github.com/Ganta-Karthik1999/IOT-Based-Agriculture-Monitoring-system" target="_blank" style="color: blue;">
-                    GitHub repository
-                  </a>
-                </p>
-                
-
 
     </body>
 
